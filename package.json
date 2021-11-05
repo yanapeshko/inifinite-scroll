@@ -1,0 +1,31 @@
+{
+  "name": "js-22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "server": "json-server --watch db.json -p 4040 -d 300"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luxplanjay/js-22.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luxplanjay/js-22/issues"
+  },
+  "homepage": "https://github.com/luxplanjay/js-22#readme",
+  "devDependencies": {
+    "json-server": "^0.16.2",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "infinite-scroll": "^3.0.6"
+  }
+}
